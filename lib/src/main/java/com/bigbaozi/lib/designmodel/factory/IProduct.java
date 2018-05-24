@@ -1,7 +1,5 @@
 package com.bigbaozi.lib.designmodel.factory;
 
-import sun.font.CreatedFontTracker;
-
 /**
  * Name: Product
  * Author: zhangfenglin
@@ -11,7 +9,4 @@ import sun.font.CreatedFontTracker;
  */
 public abstract class IProduct {
 
-    void CreateProduct() {
-
-    }
 }
