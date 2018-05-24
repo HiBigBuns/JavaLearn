@@ -7,7 +7,12 @@ package com.bigbaozi.lib.designmodel.factory;
  * Comment: //TODO
  * Date: 2018-05-24 13:45
  */
-public interface IFactory {
 
-    void  operate();
+
+/**
+ * 创建工厂
+ */
+public interface IFactory {
+    IProduct  CreatProduct();
+
 }
